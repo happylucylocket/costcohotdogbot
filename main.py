@@ -37,4 +37,4 @@ for c in subreddit.stream.comments(skip_existing=True):
         print("ALREADY COMMENTED\n")
     else:
         print("NO MATCH\n")
-    time.sleep(30)
+    time.sleep(10)
